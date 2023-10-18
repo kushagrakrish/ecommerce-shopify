@@ -1,9 +1,10 @@
 import React from "react";
+import Main from "./components/Main/Main";
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-9xl font-inter'>Hello</h1>
+      <Main></Main>
     </div>
   );
 };
